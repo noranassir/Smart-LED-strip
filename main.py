@@ -162,7 +162,7 @@ print("Connected to %s, subscribed to %s, %s, %s, %s topics" % (keys.AIO_SERVER,
 
 try:
     while True:
-        client.check_msg()  # Action a message if one is received. Non-blocking.
+        client.check_msg()  # Action a message if one is received.
         send_voltage()      # Send voltage to Adafruit IO if it's time.
         check_motion_and_voltage()  # Check motion and voltage conditions
         time.sleep(1)       # Add a delay to manage the frequency of the loop
