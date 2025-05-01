@@ -1,4 +1,3 @@
-# Code from following tutorial: https://hackmd.io/@lnu-iot/r1yEtcs55
 import keys
 import network
 from time import sleep
